@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_goal">Tor!!!</string>
+    <string name="txt_team_a">FC Bayern München</string>
+    <string name="txt_team_b">Borussia Dortmund</string>
+    <string name="btn_free_kick">Freistoß</string>
+    <string name="btn_corner">Ecke</string>
+    <string name="btn_penalty">Elfmeter</string>
+    <string name="btn_offside">Abseits</string>
+</resources>

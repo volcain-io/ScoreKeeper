@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Score Keeper</string>
+    <string name="txt_team_a">FC Bayern Munich</string>
+    <string name="txt_team_b">Borussia Dortmund</string>
+    <string name="btn_goal">Goal!!!</string>
+    <string name="btn_free_kick">Free Kick</string>
+    <string name="btn_corner">Corner</string>
+    <string name="btn_penalty">Penalty</string>
+    <string name="btn_offside">Offside</string>
+</resources>
