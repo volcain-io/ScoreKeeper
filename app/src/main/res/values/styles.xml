@@ -8,4 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MetricButton" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/btn_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/btn_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/btn_margin_bottom</item>
+    </style>
+
+    <style name="TeamText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorTeam</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MetricText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorMetric</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ScoreText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/colorScore</item>
+        <item name="android:textSize">52sp</item>
+    </style>
 </resources>

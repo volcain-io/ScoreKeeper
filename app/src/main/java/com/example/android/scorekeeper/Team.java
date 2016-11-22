@@ -15,7 +15,6 @@ public class Team {
 
     /**
      * Constructor. All attributes except the given name will be initialized with 0.
-     * @param name
      */
     public Team(final String name) {
         this.name = name;
@@ -27,11 +26,6 @@ public class Team {
 
     /**
      * Constructor. All attributes will be initialized with given values.
-     * @param name
-     * @param score
-     * @param corner
-     * @param freeKick
-     * @param penalty
      */
     public Team(final String name, final int score, final int corner, final int freeKick, final int penalty) {
         this.name = name;
@@ -49,6 +43,29 @@ public class Team {
         this.corner = 0;
         this.freeKick = 0;
         this.penalty = 0;
+    }
+
+    /**
+     * increments given metric type by one
+     * @param metricType
+     */
+    public void increment(final MetricType metricType) {
+        if ( null != metricType ) {
+            switch (metricType) {
+                case CORNER:
+                    this.corner = this.corner + 1;
+                    break;
+                case FREE_KICK:
+                    this.freeKick = this.freeKick + 1;
+                    break;
+                case PENALTY:
+                    this.penalty = this.penalty + 1;
+                    break;
+                case SCORE:
+                    this.score = this.score + 1;
+                    break;
+            }
+        }
     }
 
     public String getName() {
